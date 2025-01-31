@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet-Shop</title>
+    <!-- Google Font cdn-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Soro font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/5c0edee1c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- style font section -->
+    <style>
+      .adlam-font {
+        font-family: "ADLaM Display", serif;
+      }
+      .soro-font {
+        font-family: "Sora", serif;
+      }
+    </style>
+
+    <!-- DaisyUi -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind css cdn-->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="">
+    <!--Banner Section-->
+
+    <nav class="soro-font bg-[#FFF9F4]">
+      <div class="flex justify-between md:w-11/12 mx-auto items-center md:mt-7">
+        <div class="md:flex items-center gap-2">
+          <img class="mx-3 md:mx-0" src="./c1-assets/logo-header.png" alt="" />
+          <h1 class="text-2xl hidden md:block">
+            Browse <span class="text-yellow-300 text-2xl">4</span> Petss
+          </h1>
+        </div>
+        <div>
+          <ul class="md:flex items-center gap-5 hidden text-xl space-x-7">
+            <li><a href="#">Find a pet</a></li>
+            <li><a href="#">Breeds</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="md:flex items-center gap-5 hidden">
+          <i class="fa-regular fa-bell text-2xl"></i>
+          <i class="fa-solid fa-magnifying-glass text-2xl"></i>
+          <button class="border border-yellow-300 px-7 py-2 rounded-md">
+            Login
+          </button>
+          <button class="py-2 px-6 bg-yellow-300 rounded-md">Register</button>
+        </div>
+        <!-- small device bars -->
+        <div class="md:hidden">
+          <i class="fa-solid fa-bars mx-4 my-5" style="font-size: 35px"></i>
+        </div>
+      </div>
+      <hr class="border-black md:hidden" />
+    </nav>
+    <!-- Main section -->
+    <main>
+      <!-- Hero Section -->
+      <section class="w-11/12 mx-auto mt-8 md:mt-24">
+        <div class="space-y-6 relative z-10">
+          <h1 class="text-4xl md:text-6xl adlam-font">
+            Pamper Your Pet, <br />
+            Because They Deserve <br />
+            the Bes
+          </h1>
+          <p class="soro-font">
+            Discover a world of treats, toys, and essentials handpicked for
+            <br />
+            your furry friends. Shop now and make tails wag with joy!
+          </p>
+          <button class="py-2 px-8 bg-yellow-300 rounded-md soro-font">
+            Find a pet
+          </button>
+        </div>
+        <div
+          class="absolute mx-auto right-3 bottom-80 md:right-56 md:bottom-16"
+        >
+          <img class="overflow-hidden" src="./c1-assets/cat-big.png" alt="" />
+        </div>
+      </section>
+    </main>
+    <!-- Footer Section -->
+    <footer></footer>
+  </body>
+</html>
