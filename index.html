@@ -34,11 +34,11 @@
     </style>
 
     <!-- DaisyUi -->
-    <!-- <link
+    <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
       rel="stylesheet"
       type="text/css"
-    /> -->
+    />
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Tailwind css cdn-->
@@ -84,7 +84,7 @@
         class="relative h-[550px] md:h-[730px] mt-12 md:mt-24 mb-20 md:flex"
       >
         <div class="space-y-6 z-10">
-          <h1 class="text-4xl md:text-6xl adlam-font">
+          <h1 class="text-4xl md:text-6xl adlam-font animate-pulse">
             Pamper Your Pet, <br />
             Because They Deserve <br />
             the Bes
@@ -94,7 +94,9 @@
             <br />
             your furry friends. Shop now and make tails wag with joy!
           </p>
-          <button class="py-2 px-8 bg-yellow-300 rounded-md soro-font">
+          <button
+            class="py-2 px-8 bg-yellow-300 rounded-md soro-font animate-bounce"
+          >
             Find a pet
           </button>
         </div>
@@ -194,6 +196,53 @@
               <div class="text-center space-y-3 mb-5">
                 <h2 class="adlam-font text-xl">Dog</h2>
                 <p class="soro-font">3 items</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Extra Part -->
+      <section class="bg-yellow-100 p-20 mb-10">
+        <div class="mb-10">
+          <h1 class="text-4xl adlam-font">Extra Section</h1>
+        </div>
+        <div>
+          <div class="carousel w-full lg:h-[500px]">
+            <!-- item-1 -->
+            <div id="item1" class="carousel-item w-full">
+              <div class="lg:flex items-center gap-10 justify-center">
+                <!-- text-section -->
+                <div class="flex-1">
+                  <h1 class="lg:text-6xl text-4xl adlam-font">
+                    Most Selling Dog's & Cat's
+                  </h1>
+                  <p class="soro-font mt-7">
+                    At our store, certain dog breeds have captured <br />the
+                    hearts of customers and are flying off the shelves! <br />
+                    Among the best-selling breeds, Golden Retrievers, Labrador
+                    <br />
+                    Retrievers,ure and adaptability. German
+                  </p>
+                  <button
+                    class="border bg-yellow-400 px-7 py-2 soro-font rounded-md mt-10 animate-pulse mb-5"
+                  >
+                    Order Now
+                  </button>
+                </div>
+                <!-- image-section -->
+                <div class="flex-1 mb-5">
+                  <img
+                    src="./c1-assets/pexels-photo-1108099.webp"
+                    class="w-full rounded-xl"
+                  />
+                </div>
+                <div class="flex-1">
+                  <img
+                    src="./c1-assets/view-adorable-kittens_23-2150758212.avif"
+                    class="w-full rounded-xl hover:"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -362,7 +411,7 @@
               <h1 class="text-5xl adlam-font">$7.99</h1>
             </div>
             <!-- problem -->
-            <div class="absolute lg:left-[550px] lg:top-28 top-52 left-16">
+            <div class="absolute lg:left-[550px] lg:top-28 top-56 left-20">
               <img
                 class="xl:left-[350px]"
                 src="./c1-assets/cute-dog-mid.png"
@@ -400,7 +449,7 @@
               Exclusive training tips, ticks, product deals and more.
             </p>
             <input
-              class="block w-full bg-[#FFFFFF] py-3"
+              class="block w-full bg-[#FFFFFF] py-3 p-3"
               type="text"
               placeholder="Enter email..."
             />
